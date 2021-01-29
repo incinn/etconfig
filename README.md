@@ -10,7 +10,7 @@ Launch the game, and open the console.
 
 Load the custom config by entering this into the console: `/exec barnz.cfg`
 
-The game will perform a video restart and reload with the new config applied.
+Graphics changes will apply when the game has been restarted. To force the changes you can open the console again and run `/vid_restart`.
 
 ## Info
 More details about config options can be found [here](http://etconfig.net/)
