@@ -10,7 +10,7 @@ Download or clone this repository.
 
 Set `install.sh` as executable, then run it.
 
-If the config isnt loaded automatically you can force load it by running `/exec autoexec.cfg` in the game console.
+If the config isnt loaded automatically you can force load it by running `/exec barnz.cfg` in the game console.
 
 Graphics changes will apply when the game has been restarted. To force the changes to apply you can run `/vid_restart` in the game console.
 
