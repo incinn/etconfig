@@ -40,11 +40,11 @@ Pull latest changes. Run `install.sh` again.
 
 ### Team/Class Switcher
 
-| Key  | Action                            |
-| ---- | --------------------------------- |
-| `F9` | toggle between teams              |
-| `F4` | toggle between engineer weapons   |
-| `F5` | medic                             |
-| `F6` | field ops                         |
-| `F7` | toggle between covert ops weapons |
-| `F8` | toggle between soldier weapons    |
+| Key  | Action                                    |
+| ---- | ----------------------------------------- |
+| `F9` | toggle between teams                      |
+| `F7` | toggle between engineer weapons           |
+| ``   | [disabled] medic                          |
+| ``   | [disabled] field ops                      |
+| `F8` | toggle between covert ops weapons         |
+| ``   | [disabled] toggle between soldier weapons |
