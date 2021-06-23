@@ -6,13 +6,13 @@ Custom vsays for use on this server: [ETc Clan Server](https://et.trackbase.net/
 
 ## Install
 
-Download or clone this repository.
+Download or clone this repository into `$ETMAIN/etconfig`.
 
-Set `install.sh` as executable, then run it.
+Move the `autoexec.cfg` file to `$ETMAIN` root.
 
-If the config isnt loaded automatically you can force load it by running `/exec barnz.cfg` in the game console.
+Config should now load when game starts. If it doesn't you can run `/exec autoexec.cfg` inside the console.
 
-Graphics changes will apply when the game has been restarted. To force the changes to apply you can run `/vid_restart` in the game console.
+Graphics changes should apply when executing config. If it doesn't, you can force the changes by running `/vid_restart` in the game console.
 
 ### Updates
 
