@@ -14,18 +14,38 @@ Config should now load when game starts. If it doesn't you can run `/exec autoex
 
 Graphics changes should apply when executing config. If it doesn't, you can force the changes by running `/vid_restart` in the game console.
 
-### Updates
-
-Pull latest changes. Run `install.sh` again.
-
 ### Binds
+
+| Key      | Action           |
+| -------- | ---------------- |
+| `MOUSE3` | play dead        |
+| `MOUSE4` | weaponbank 7     |
+| `MOUSE5` | weaponbank 6     |
+| `DEL`    | mp_fireteamadmin |
+
+### Team/Class Switcher
+
+| Key   | Action                                    |
+| ----- | ----------------------------------------- |
+| `F9`  | toggle between teams                      |
+| `F7`  | toggle between engineer weapons           |
+| `n/a` | [disabled] medic                          |
+| `n/a` | [disabled] field ops                      |
+| `F8`  | toggle between covert ops weapons         |
+| `n/a` | [disabled] toggle between soldier weapons |
+
+### Volume Control
+
+| Key | Action      |
+| --- | ----------- |
+| `=` | volume up   |
+| `-` | volume down |
+| `0` | mute        |
+
+### Vsay Binds
 
 | Key          | Action                   |
 | ------------ | ------------------------ |
-| `MOUSE3`     | play dead                |
-| `MWHEELUP`   | weaponbank 2             |
-| `MWHEELDOWN` | weaponbank 7             |
-| `DEL`        | fire team admin          |
 | `m`          | vsay f2_fart hi          |
 | `,`          | vsay ra_vs               |
 | `/`          | vsay cl_booh             |
@@ -37,14 +57,3 @@ Pull latest changes. Run `install.sh` again.
 | `RIGHTARROW` | vsay ok_mmmk             |
 | `UPARROW`    | vsay f1_anus             |
 | `LEFTARROW`  | vsay he_waza2            |
-
-### Team/Class Switcher
-
-| Key  | Action                                    |
-| ---- | ----------------------------------------- |
-| `F9` | toggle between teams                      |
-| `F7` | toggle between engineer weapons           |
-| ``   | [disabled] medic                          |
-| ``   | [disabled] field ops                      |
-| `F8` | toggle between covert ops weapons         |
-| ``   | [disabled] toggle between soldier weapons |
