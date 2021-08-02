@@ -48,12 +48,17 @@ Graphics changes should apply when executing config. If it doesn't, you can forc
 | ------------ | ------------------------ |
 | `m`          | vsay f2_fart hi          |
 | `,`          | vsay ra_vs               |
+| `.`          | vsay ra_zombie           |
 | `/`          | vsay cl_booh             |
+| `]`          | vsay FTExploreArea       |
+| `[`          | vsay FTInfiltrate        |
+| `#`          | vsay r1_maybenext        |
+| `'`          | vsay r1_thanksbitch      |
 | `PGUP`       | vsay CommandAcknowledged |
 | `PGDN`       | vsay CommandDeclined     |
 | `HOME`       | vsay ok_yeah2            |
 | `END`        | vsay CommandAcknowledged |
-| `INS`        | vsay FTAttack            |
 | `RIGHTARROW` | vsay ok_mmmk             |
 | `UPARROW`    | vsay f1_anus             |
 | `LEFTARROW`  | vsay he_waza2            |
+| `DOWNARROW`  | vsay f2_predator         |
