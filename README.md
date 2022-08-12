@@ -25,7 +25,7 @@ Config should now load when game starts. If it doesn't you can run `/exec autoex
 | `F7`         | fieldops (fg42) |
 | `F8`         | covertops       |
 
-### Volume Control
+## Volume Control
 
 The default volume level is set to `0.2`.
 
@@ -34,7 +34,7 @@ The default volume level is set to `0.2`.
 | `=` | volume up   |
 | `-` | volume down |
 
-### Vsay Binds
+## Vsay Binds
 
 | Key    | Action                   |
 | ------ | ------------------------ |
