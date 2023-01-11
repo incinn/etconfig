@@ -4,47 +4,18 @@ Enemy Territory game configuration files for [ETc|Barnz.](https://et.trackbase.n
 
 # Install
 
-Download or clone this repository into `$ETMAIN/etconfig`.
+Clone repository into `$ETMAIN/etconfig`.
 
-Move the `autoexec.cfg` file to `$ETMAIN` root.
+Move `autoexec.cfg` file to `$ETMAIN`.
 
-Config should now load when game starts. If it doesn't you can run `/exec autoexec.cfg` inside the console, or by pressing `0` after one successful load.
+Config will now load when game starts. If it doesn't you can run `/exec autoexec.cfg` inside the console, or by pressing `0` after one successful load.
+
+If nothing else works, you can try to load it manually with `/exec etconfig/barnz.cfg`.
 
 # Components
 
-## Team/Class Switcher
-
-| Key          | Action          |
-| ------------ | --------------- |
-| `LEFTARROW`  | join axis       |
-| `RIGHTARROW` | join allies     |
-| `UPARROW`    | join spec       |
-| `DOWNARROW`  | quit            |
-| `F5`         | medic           |
-| `F6`         | engineer (smg)  |
-| `F7`         | fieldops (fg42) |
-| `F8`         | covertops       |
-
-## Volume Control
-
-The default volume level is set to `0.2`.
-
-| Key | Action      |
-| --- | ----------- |
-| `=` | volume up   |
-| `-` | volume down |
-
-## Vsay Binds
-
-| Key    | Action                   |
-| ------ | ------------------------ |
-| `,`    | vsay ra_vs               |
-| `.`    | vsay ra_zombie           |
-| `]`    | vsay FTExploreArea       |
-| `[`    | vsay FTInfiltrate        |
-| `PGUP` | vsay CommandAcknowledged |
-| `PGDN` | vsay CommandDeclined     |
-
-## Statistics
-
-Hold `LEFTCTRL` to show both `topshots` and `stats`.
+- Quick team selector
+- Multiple statistics
+- AFK toggle
+- Class selector
+- Volume controls
